@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Code Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="code-section">
+            <div class="code-box">
+                <label><img src="html5-brands.svg" alt="HTML">HTML</label>
+                <textarea id="html-code" placeholder="Write HTML here..."></textarea>
+            </div>
+            <div class="code-box">
+                <label><img src="css-brands.svg" alt="CSS">CSS</label>
+                <textarea id="css-code" placeholder="Write CSS here..."></textarea>
+            </div>
+            <div class="code-box">
+                <label><img src="js-brands.svg" alt="JavaScript">JavaScript</label>
+                <textarea id="javascript-code" placeholder="Write JavaScript here..."></textarea>
+            </div>
+        </div>
+        <div class="output-section">
+            <label><img src="play-solid.svg" alt="Output">Output</label>
+            <iframe id="output" sandbox="allow-scripts"></iframe>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
